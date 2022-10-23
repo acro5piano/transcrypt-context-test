@@ -14,5 +14,5 @@ git commit -m 'add normal secret'
 
 echo 'top-secret/* filter=crypt-super diff=crypt-super merge=crypt-super' >> .gitattributes
 echo top-secret > top-secret/test
-git commit -m 'add top secret'
+git commit -m 'add non-crypted top-secret'
 ```
